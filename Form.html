@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="form-group">
+       <center><h1 type="text">Formulario:</h1></center>
+    </div>
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-xs-3">Nombre:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-3">Apellido:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="control-label col-xs-3">Fecha de Nacimiento:</label>
+            <div class="col-xs-3">
+                <input type="date" class="form-control">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="control-label col-xs-3" >DUI:</label>
+            <div class="col-xs-9">
+                <input type="tel" class="form-control" placeholder="Digite su DUI">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1" class="control-label col-xs-3">Género:</label>
+            <div class="col-xs-2">
+                <label class="radio-inline">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option  type="radio" name="genderRadios" value="male">Masculino</option>
+                        <option type="radio" name="genderRadios" value="female">Femenino</option>
+                       
+                      </select>
+                    
+                </label>
+      </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-3">Correo:</label>
+            <div class="col-xs-9">
+                <input rows="3" type="email" class="form-control" id="inputEmail4" placeholder="Email"></input>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-row align-items-center">
+                
+                  <label class="control-label col-xs-3" for="inlineFormInput" >Carnet</label>
+                  <div class="col-xs-9">
+                  <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Carnet de estudiante">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-3" >Telefono:</label>
+            <div class="col-xs-9">
+                <input type="tel" class="form-control" placeholder="Telefono">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-3">Dirección:</label>
+            <div class="col-xs-9">
+                <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+            </div>
+        </div>
+       
+        <br>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+                <input type="submit" class="btn btn-primary" value="Registar estudiante">
+            </div>
+        </div>
+    </form>
+    
+    
+    
+</body>
+</html>
